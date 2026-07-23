@@ -10,6 +10,7 @@ export function Hero() {
       <p className="hero-lede">Reliable Google review synchronization, evidence-backed AI analysis and tenant-safe background automation—connected in one feedback-to-recommendation workflow.</p>
       <div className="hero-actions">
         <a className="primary-button" href="#architecture">Explore the system <ArrowIcon /></a>
+        <a className="tour-link" href="#engineering-overview"><span aria-hidden="true">02:00</span> 2-minute architecture tour</a>
         <a className="text-link" href="#reliability">Read the decisions</a>
       </div>
       <ul className="stack-badges" aria-label="Core implemented technologies">
