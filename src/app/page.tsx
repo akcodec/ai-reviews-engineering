@@ -7,6 +7,7 @@ import { EngineeringChallenges } from "@/components/engineering/engineering-chal
 import { Footer } from "@/components/engineering/footer";
 import { Hero } from "@/components/engineering/hero";
 import { Navbar } from "@/components/engineering/navbar";
+import { EngineeringOverview } from "@/components/engineering/overview/engineering-overview";
 import { ProductStory } from "@/components/engineering/product-story";
 import { ReliabilitySection } from "@/components/engineering/reliability-section";
 import { SecuritySection } from "@/components/engineering/security-section";
@@ -19,7 +20,7 @@ export default function Home() {
     <div className="background-grid" aria-hidden="true" />
     <Navbar />
     <main id="main-content">
-      <Hero /><ProductStory /><ArchitectureDiagram /><CriticalFlows /><ReliabilitySection />
+      <Hero /><EngineeringOverview /><ProductStory /><ArchitectureDiagram /><CriticalFlows /><ReliabilitySection />
       <SecuritySection /><DataModelDiagram /><DeploymentDiagram /><EngineeringChallenges />
       <TestingSection /><TechStack /><Boundaries />
     </main>
